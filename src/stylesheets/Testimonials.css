@@ -1,5 +1,5 @@
 .testimonialSection {
-	margin-top: 50px;
+	margin-top: 4rem;
 	width: 100vw;
 	margin-bottom: 2rem;
 }
@@ -66,4 +66,28 @@
 	height: 20px;
 	border-radius: 10px;
 	background-color: #aad9d9;
+	mix-blend-mode: difference;
+	position: absolute;
+}
+
+#image1 {
+	background-image: url("../Assets/Screen Shot 2022-05-09 at 10.28.png");
+	background-position: center;
+	background-size: cover;
+	mix-blend-mode: luminosity;
+	isolation: isolate;
+}
+#image2 {
+	background-image: url("../Assets/Screen Shot 2022-05-09 at 10.29.png");
+	background-position: center;
+	background-size: cover;
+	mix-blend-mode: luminosity;
+	isolation: isolate;
+}
+#image3 {
+	background-image: url("../Assets/Screen Shot 2022-05-09 at 10.30.png");
+	background-position: center;
+	background-size: cover;
+	mix-blend-mode: luminosity;
+	isolation: isolate;
 }

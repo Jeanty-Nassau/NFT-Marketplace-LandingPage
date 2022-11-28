@@ -63,5 +63,5 @@
 	cursor: pointer;
 }
 .formButtonContainer button:hover {
-	background-color: #aad9d9;
+	background-image: linear-gradient(to bottom right, #aad9d9, #8d8dda);
 }

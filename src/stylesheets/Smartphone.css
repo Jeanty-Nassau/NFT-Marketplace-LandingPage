@@ -1,54 +1,54 @@
-.analytics {
+.phoneSection {
 	margin-top: 10%;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.imageWrapper {
-	width: 55%;
-	padding-right: 10%;
+.imageWrapperPhone {
+	width: 50%;
+	padding-right: 5%;
 	display: flex;
 	align-items: center;
 	justify-content: right;
 }
-.imageWrapper > img {
+.imageWrapperPhone > img {
 	width: 85%;
 }
-.textWrapper {
-	width: 45%;
-	padding-left: 10%;
+.textWrapperPhone {
+	width: 50%;
+	padding-left: 5%;
 }
-.subHeading {
+.subHeadingPhone {
 	font-size: 2rem;
 	font-weight: 500;
 	margin-bottom: 0;
 }
-.mainHeading {
+.mainHeadingPhone {
 	font-size: 4rem;
 	font-weight: 700;
 	margin-bottom: 0;
 }
-.bodyText {
+.bodyTextPhone {
 	font-size: 1.5rem;
 	font-weight: 500;
-	width: 70%;
-	margin: 10% 0;
+	width: 80%;
+	margin: 5% 0;
 }
-.cta {
+.ctaPhone {
 	background-color: #8d8dda;
+	border: none;
 	border-radius: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1% 10%;
-	width: 350px;
 	height: 70px;
 	cursor: pointer;
-}
-.cta > p {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 700;
-	text-align: center;
-	margin: 0;
+	color: white;
+}
+.ctaPhone:hover {
+	background-image: linear-gradient(to bottom right, #aad9d9, #8d8dda);
 }

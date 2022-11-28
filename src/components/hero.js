@@ -8,7 +8,7 @@ import logo4 from "../Assets/image 8.png";
 export default function Hero() {
 	return (
 		<>
-			<div className="hero">
+			<div className="heroSection">
 				<div className="heroTextWrapper">
 					<h1 className="mainHeading">Discover And Collect Rare NFTs</h1>
 					<p className="bodyText">
@@ -16,12 +16,8 @@ export default function Hero() {
 						assets.
 					</p>
 					<div className="buttonWrapper">
-						<div className="buyButton">
-							<p>BUY NFTs</p>
-						</div>
-						<div className="sellButton">
-							<p>SELL NFTs</p>
-						</div>
+						<button className="buyButton">BUY NFTs</button>
+						<button className="sellButton">SELL NFTs</button>
 					</div>
 				</div>
 				<div className="heroImageWrapper">

@@ -3,20 +3,20 @@ import Image from "../Assets/Other 18.png";
 
 export default function Analytics() {
 	return (
-		<div className="analytics">
-			<div className="imageWrapper">
+		<div className="analyticsSection">
+			<div className="imageWrapperAnalytics">
 				<img src={Image} alt="" />
 			</div>
-			<div className="textWrapper">
-				<h2 className="subHeading">ANALYTICS</h2>
-				<h1 className="mainHeading">Built-In Analytics To Track Your NFTs</h1>
-				<p className="bodyText">
+			<div className="textWrapperAnalytics">
+				<h2 className="subHeadingAnalytics">ANALYTICS</h2>
+				<h1 className="mainHeadingAnalytics">
+					Built-In Analytics To Track Your NFTs
+				</h1>
+				<p className="bodyTextAnalytics">
 					Use our built-in analytics dashboard to pull valuable insights and
 					monitor the value of your Krypto portfolio over time.
 				</p>
-				<div className="cta">
-					<p>VIEW OUR PRICING</p>
-				</div>
+				<button className="ctaAnalytics">VIEW OUR PRICING</button>
 			</div>
 		</div>
 	);

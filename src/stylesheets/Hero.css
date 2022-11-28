@@ -1,17 +1,17 @@
-.hero {
+.heroSection {
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	margin-top: 10%;
+	margin-top: 5%;
 }
 .heroTextWrapper {
-	width: 45%;
-	padding-left: 10%;
+	width: 50%;
+	padding-left: 5%;
 }
 .heroImageWrapper {
-	width: 55%;
-	padding-right: 10%;
+	width: 50%;
+	padding-right: 5%;
 	display: flex;
 	align-items: center;
 	justify-content: right;
@@ -28,7 +28,7 @@
 	font-size: 1.5rem;
 	font-weight: 500;
 	width: 70%;
-	margin: 10% 0;
+	margin: 5% 0 10% 0;
 }
 
 .buttonWrapper {
@@ -39,45 +39,32 @@
 }
 .buyButton {
 	background-color: #8d8dda;
+	border: none;
 	border-radius: 80px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 1% 8%;
+	padding: 1% 10%;
 	height: 70px;
 	cursor: pointer;
-	width: 180px;
-}
-.buyButton > p {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-weight: 700;
-	text-align: center;
-	width: 100%;
-	margin: 0;
+	color: white;
 }
 .buyButton:hover {
-	background-color: #aad9d9;
+	background-image: linear-gradient(to bottom right, #aad9d9, #8d8dda);
 }
 .sellButton {
 	border: 1px solid #aad9d9;
+	background-color: transparent;
 	border-radius: 80px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 1% 8%;
+	padding: 1% 10%;
 	height: 70px;
 	cursor: pointer;
-	width: 180px;
-}
-.sellButton > p {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-weight: 700;
-	text-align: center;
-	width: 100%;
+	color: white;
 }
 
 .sellButton:hover {
-	background-color: #aad9d9;
+	background-image: linear-gradient(to bottom right, #8d8dda, #aad9d9);
 }
 
 .logos {
@@ -87,24 +74,20 @@
 .logos > h2 {
 	font-size: 1.75rem;
 	font-weight: 700;
-	padding-left: 10%;
+	padding-left: 5vw;
 }
 .logosWrapper {
-	margin-left: 10%;
-	width: 80%;
+	margin-left: 5vw;
+	width: 90vw;
 	height: 100px;
 	border-radius: 10px;
 	background-color: #302a64;
 	opacity: 60%;
-	display: grid;
-	grid-auto-flow: column;
+	display: flex;
+	justify-content: space-around;
 	align-items: center;
-	justify-content: center;
 }
 .logosWrapper > img {
-	width: 60%;
-	opacity: 20%;
-}
-.logosWrapper > img:hover {
+	height: 60%;
 	opacity: 100%;
 }

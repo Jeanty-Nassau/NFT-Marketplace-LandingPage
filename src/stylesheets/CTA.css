@@ -24,10 +24,15 @@
 }
 .CTAButton {
 	background-color: black;
-	padding: 0.5rem 5rem;
+	border: 1px solid transparent;
+	padding: 1.5rem 5rem;
 	border-radius: 2.5rem;
-}
-.CTAButton h1 {
+	color: white;
+	cursor: pointer;
 	font-size: 1.5rem;
 	font-weight: 700;
+}
+.CTAButton:hover {
+	background-image: linear-gradient(to bottom right, #aad9d9, #8d8dda);
+	border: 1px solid black;
 }

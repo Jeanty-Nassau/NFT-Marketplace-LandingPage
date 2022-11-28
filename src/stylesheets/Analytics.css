@@ -1,54 +1,58 @@
-.analytics {
+.analyticsSection {
 	margin-top: 10%;
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.imageWrapper {
-	width: 55%;
-	padding-right: 10%;
+.imageWrapperAnalytics {
+	width: 50%;
+	padding-left: 5%;
 	display: flex;
 	align-items: center;
-	justify-content: right;
+	justify-content: left;
 }
-.imageWrapper > img {
+.imageWrapperAnalytics > img {
 	width: 85%;
 }
-.textWrapper {
-	width: 45%;
-	padding-right: 10%;
+.textWrapperAnalytics {
+	width: 50%;
+	padding-right: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
 }
-.subHeading {
+.subHeadingAnalytics {
 	font-size: 2rem;
 	font-weight: 500;
 	margin-bottom: 0;
 }
-.mainHeading {
+.mainHeadingAnalytics {
 	font-size: 4rem;
 	font-weight: 700;
 	margin-bottom: 0;
 }
-.bodyText {
+.bodyTextAnalytics {
 	font-size: 1.5rem;
 	font-weight: 500;
-	width: 70%;
-	margin: 10% 0;
+	width: 80%;
+	margin: 5% 0;
 }
-.cta {
+.ctaAnalytics {
 	background-color: #8d8dda;
+	border: none;
 	border-radius: 80px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 1% 10%;
-	width: 300px;
 	height: 70px;
 	cursor: pointer;
-}
-.cta > p {
-	font-size: 2rem;
+	font-size: 1.5rem;
 	font-weight: 700;
-	text-align: center;
-	margin: 0;
+	color: white;
+}
+.ctaAnalytics:hover {
+	background-image: linear-gradient(to bottom right, #aad9d9, #8d8dda);
 }

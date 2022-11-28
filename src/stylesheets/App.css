@@ -13,7 +13,7 @@
 	top: 0;
 	right: 0;
 	position: fixed;
-	padding: 2vw 10vw;
+	padding: 2vw 5vw;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -23,8 +23,8 @@
 .navlinks {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	width: 50%;
+	justify-content: space-between;
+	width: 45%;
 }
 
 .navlink {
@@ -49,4 +49,10 @@
 	background-color: #8d8dda;
 	border-radius: 100%;
 	margin-right: 8px;
+}
+.navButton:hover {
+	background-image: linear-gradient(to bottom right, #8d8dda, #8d8dda, #aad9d9);
+}
+.navButton:hover span {
+	background-color: #aad9d9;
 }
