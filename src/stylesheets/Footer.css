@@ -1,0 +1,67 @@
+.footerSection {
+	width: 80vw;
+	margin-left: 10vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.footerLogo {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.footerList {
+	list-style: none;
+}
+.footerHeading {
+	font-weight: 700;
+	margin-bottom: 1.75rem !important;
+}
+.footerList li {
+	margin-bottom: 0.75rem;
+	font-size: 1rem;
+}
+.formCTA {
+	width: 30%;
+}
+.formHeading {
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.formButtonContainer {
+	width: 100%;
+	background-color: #13124f;
+	padding: 0.75rem 0;
+	border-radius: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+.formButtonContainer input {
+	background-color: #13124f;
+	color: white;
+	width: 55%;
+	margin-left: 1.5rem;
+	border: none;
+	font-size: 1rem;
+}
+.formButtonContainer input:focus {
+	outline: none;
+	border: none;
+}
+.formButtonContainer button {
+	width: 35%;
+	position: absolute;
+	height: 100%;
+	right: 0;
+	border: none;
+	border-radius: 2rem;
+	font-weight: 700;
+	color: white;
+	background-color: #8d8dda;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.formButtonContainer button:hover {
+	background-color: #aad9d9;
+}

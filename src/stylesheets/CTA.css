@@ -1,0 +1,33 @@
+.CTASection {
+	width: 80vw;
+	margin: 5.5rem 10vw;
+	padding: 3rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to bottom right, #8d8dda, #8d8dda, #aad9d9);
+	border-radius: 2rem;
+}
+.CTASubHeading {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin: 0;
+	color: black;
+}
+.CTAMainHeading {
+	font-size: 4rem;
+	font-weight: 700;
+	margin: 2.5rem 0;
+	width: 45%;
+	text-align: center;
+}
+.CTAButton {
+	background-color: black;
+	padding: 0.5rem 5rem;
+	border-radius: 2.5rem;
+}
+.CTAButton h1 {
+	font-size: 1.5rem;
+	font-weight: 700;
+}

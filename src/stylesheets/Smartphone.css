@@ -1,0 +1,54 @@
+.analytics {
+	margin-top: 10%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.imageWrapper {
+	width: 55%;
+	padding-right: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.imageWrapper > img {
+	width: 85%;
+}
+.textWrapper {
+	width: 45%;
+	padding-left: 10%;
+}
+.subHeading {
+	font-size: 2rem;
+	font-weight: 500;
+	margin-bottom: 0;
+}
+.mainHeading {
+	font-size: 4rem;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.bodyText {
+	font-size: 1.5rem;
+	font-weight: 500;
+	width: 70%;
+	margin: 10% 0;
+}
+.cta {
+	background-color: #8d8dda;
+	border-radius: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1% 10%;
+	width: 350px;
+	height: 70px;
+	cursor: pointer;
+}
+.cta > p {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+}
