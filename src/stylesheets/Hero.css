@@ -39,14 +39,14 @@
 }
 .buyButton {
 	background-color: #8d8dda;
-	border: none;
+	border: 1px solid transparent;
 	border-radius: 80px;
-	padding: 1% 10%;
 	height: 70px;
 	cursor: pointer;
 	font-size: 1.75rem;
 	font-weight: 700;
 	color: white;
+	width: 40%;
 }
 .buyButton:hover {
 	background-image: linear-gradient(to bottom right, #aad9d9, #8d8dda);
@@ -55,15 +55,16 @@
 	border: 1px solid #aad9d9;
 	background-color: transparent;
 	border-radius: 80px;
-	padding: 1% 10%;
 	height: 70px;
 	cursor: pointer;
 	font-size: 1.75rem;
 	font-weight: 700;
 	color: white;
+	width: 40%;
 }
 
 .sellButton:hover {
+	border: transparent;
 	background-image: linear-gradient(to bottom right, #8d8dda, #aad9d9);
 }
 
@@ -90,4 +91,26 @@
 .logosWrapper > img {
 	height: 60%;
 	opacity: 100%;
+}
+.circleGradient1 {
+	position: fixed;
+	width: 40vw;
+	height: 40vw;
+	border-radius: 50%;
+	background: #8d8dda;
+	filter: blur(140px);
+	top: -20vw;
+	left: 5vw;
+	z-index: -10;
+}
+.circleGradient2 {
+	position: fixed;
+	width: 40vw;
+	height: 40vw;
+	border-radius: 50%;
+	background: rgba(170, 217, 217, 0.8);
+	filter: blur(140px);
+	top: 15vw;
+	right: -10vw;
+	z-index: -1;
 }

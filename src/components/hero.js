@@ -9,6 +9,8 @@ export default function Hero() {
 	return (
 		<>
 			<div className="heroSection">
+				<div className="circleGradient1"></div>
+				<div className="circleGradient2"></div>
 				<div className="heroTextWrapper">
 					<h1 className="mainHeading">Discover And Collect Rare NFTs</h1>
 					<p className="bodyText">

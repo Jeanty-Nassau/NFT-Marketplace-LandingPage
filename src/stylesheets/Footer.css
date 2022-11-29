@@ -4,6 +4,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
+	z-index: 2;
 }
 .footerLogo {
 	font-size: 1.5rem;

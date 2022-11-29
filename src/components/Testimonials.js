@@ -8,6 +8,7 @@ export default function Testimonials() {
 			</div>
 			<div className="testimonialsContainer">
 				<div className="testimonial">
+					<div className="testimonialMask"></div>
 					<div className="testimonialImageWrapper" id="image1">
 						<div className="imageIcon"></div>
 					</div>
@@ -18,6 +19,7 @@ export default function Testimonials() {
 					</p>
 				</div>
 				<div className="testimonial">
+					<div className="testimonialMask"></div>
 					<div className="testimonialImageWrapper" id="image2">
 						<div className="imageIcon"></div>
 					</div>
@@ -28,6 +30,7 @@ export default function Testimonials() {
 					</p>
 				</div>
 				<div className="testimonial">
+					<div className="testimonialMask"></div>
 					<div className="testimonialImageWrapper" id="image3">
 						<div className="imageIcon"></div>
 					</div>

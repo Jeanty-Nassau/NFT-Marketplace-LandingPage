@@ -45,6 +45,7 @@
 	align-items: center;
 	border-radius: 15%;
 	position: relative;
+	z-index: 3;
 }
 .testimonial h2 {
 	text-align: center;
@@ -61,13 +62,20 @@
 	position: absolute;
 	top: -50px;
 }
+.testimonialMask {
+	width: 100px;
+	height: 100px;
+	border-radius: 60px;
+	background-color: #13124f;
+	position: absolute;
+	top: -50px;
+}
 .imageIcon {
 	width: 20px;
 	height: 20px;
 	border-radius: 10px;
-	background-color: #aad9d9;
-	mix-blend-mode: difference;
-	position: absolute;
+	background: #aad9d9;
+	mix-blend-mode: screen;
 }
 
 #image1 {
